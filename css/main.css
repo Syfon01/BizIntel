@@ -35,8 +35,8 @@ hr{
   }
   
   .invest-img:hover {
-    box-shadow: 0 15px 55px rgba(19, 19, 19, 0.842);
-    transform: scale(1.2);
+    box-shadow: 0 3px 2px rgb(19, 19, 19);
+    transform: scale(1.0);
     border:1px solid #666;
     
   }
@@ -44,14 +44,27 @@ hr{
 .btn-b{
     background-color: #33158C !important;
     border-radius:0px;
-    width:200px;
+    height:60px;
+    width: 169px;
     color:#fff;
+    padding-top: 20px;
+
+
 }
 .btn-bn{
     background-color: #e7e7e7 !important;
     opacity: 0.40;
     width:200px;
     color:#33158C!important;
+    
+}
+.btn-bnn{
+    background-color: #33158C!important;
+    /* opacity: 0.40; */
+    width:200px;
+    color: #e7e7e7 !important;
+    border-radius:0px;
+
 }
 
 #footer{
@@ -87,4 +100,94 @@ hr{
     background-color: #33158C;
     padding:20px;
     color:#fff;
+
+}
+.p-18{
+    font-size: 18px;
+    font-weight: 600;
+    /* font-family:"Open Sans"; */
+    color:rgba(45, 45, 45, 0.5);
+}
+.p-18a{
+    font-size: 18px;
+    font-weight: 200;
+    /* font-family:"Open Sans"; */
+    color:rgba(45, 45, 45, 0.5); 
+}
+.p-24{
+    font-size: 24px;
+    font-weight:400;
+    /* font-family:"Open Sans"; */
+    /* color:rgba(45, 45, 45, 0.5); */
+}
+.p-188{
+  font-size: 18px;
+    font-weight: 400;
+    /* font-family:"Open Sans"; */
+    color:rgba(45, 45, 45, 0.5);
+}
+.p-16{
+    font-size: 16px;
+    font-weight: 600;
+    font-family:"Open Sans" sans-serif;
+}
+.p-14{
+    font-size: 14px;
+    font-weight: 100;
+    /* font-family:"Open Sans"; */
+}
+.readd{
+    font-size: 14px;
+    color:#33158C;
+    font-weight: 600;
+}
+.p-62{
+    font-size: 42px;
+    font-weight: 600;
+    /* font-family: "Nunito"; */
+}
+.hr{
+    width: 300px;
+    
+}
+.read{
+    height:60px;
+    width: 169px;
+    background-color:#33158C;
+    color:#fff;
+    border-radius: 2%;
+    padding: 15px;
+}
+a:hover {
+  color:#240e64;
+  text-decoration: none;
+}
+ul{
+  padding-right: 50px;
+}
+.feature{
+  border: none;
+}
+.nextt{
+  padding-top: 100px;
+}
+.navbar{
+border: 1px solid #F2F2F2;
+}
+.recent{
+  margin: 2px 5px 0px 2px;
+}
+.vr{
+  height: 70px;
+  width: 2px;
+  border: 1px solid;
+
+}
+@media (max-width: 767px) {
+  .col-md-3 {
+    margin-bottom: 20px;
+  }
+  .navbar {
+    margin-top: 20px;
+  }
 }
