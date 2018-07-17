@@ -1,0 +1,90 @@
+/* Stylings for home */
+.navbar{
+box-shadow: 0px 0px 4px 0px #666;
+}
+.wrapper{
+    background: linear-gradient(rgba(104, 101, 103, 0.5), rgba(104, 101, 103, 0.4))
+    , url('../img/hero-bg.png') no-repeat;
+    background-size: cover;
+    height:600px;
+  
+}
+.more{
+    color:#33158C;
+}
+hr{
+ width:90px;
+ height:2px !important;
+ background-color:#22D7E3 ;
+}
+
+.what{
+    border:1px solid rgb(226, 226, 226);
+}
+
+.invest {
+    padding: 10px;
+    transition: transform .60s; /* Animation */
+         border:1px solid #fff;
+   
+}
+.invest-img {
+    box-shadow: 0 0px 0px rgba(7, 6, 6, 0.925);
+    transition: box-shadow 0.3s ease-in-out;
+    -webkit-transition:5s;
+  }
+  
+  .invest-img:hover {
+    box-shadow: 0 15px 55px rgba(19, 19, 19, 0.842);
+    transform: scale(1.2);
+    border:1px solid #666;
+    
+  }
+ 
+.btn-b{
+    background-color: #33158C !important;
+    border-radius:0px;
+    width:200px;
+    color:#fff;
+}
+.btn-bn{
+    background-color: #e7e7e7 !important;
+    opacity: 0.40;
+    width:200px;
+    color:#33158C!important;
+}
+
+#footer{
+    background: url('../img/footer-bg.png') no-repeat;
+    background-size: cover;
+    height:90px;
+    background-color: #2D2D2D;
+    color:#fff;
+}
+.social{
+    list-style: none;
+    display: inline-block;
+    border-radius:30px;
+     width: 30px;
+     height: 30px;
+    border:3px solid #C4C4C4;
+    text-align: center;
+    color:#C4C4C4;
+}
+
+/* stylings for Contact us */
+.contact-hero{
+    background:  linear-gradient(rgba(11, 32, 150, 0.5), rgba(11, 32, 150, 0.5)), url('../img/contact-bg.png') no-repeat;
+    background-size: cover;
+    height: 600px;
+    color:#fff;
+}
+.form-contact{
+    border-radius: 0px !important;
+    
+}
+#subscribe{
+    background-color: #33158C;
+    padding:20px;
+    color:#fff;
+}
