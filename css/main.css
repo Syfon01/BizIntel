@@ -1,6 +1,7 @@
 /* Stylings for home */
 .navbar{
 box-shadow: 0px 0px 4px 0px #666;
+height: px;
 }
 .wrapper{
     background: linear-gradient(rgba(104, 101, 103, 0.5), rgba(104, 101, 103, 0.4))
@@ -12,7 +13,7 @@ box-shadow: 0px 0px 4px 0px #666;
 .more{
     color:#33158C;
 }
-hr{
+.hr{
  width:90px;
  height:2px !important;
  background-color:#22D7E3 ;
@@ -44,8 +45,8 @@ hr{
 .btn-b{
     background-color: #33158C !important;
     border-radius:0px;
-    height:60px;
-    width: 169px;
+    height:45px;
+    width: 145px;
     color:#fff;
     padding-top: 20px;
 
@@ -102,6 +103,8 @@ hr{
     color:#fff;
 
 }
+
+/* Blog page CSS */
 .p-18{
     font-size: 18px;
     font-weight: 600;
@@ -146,17 +149,34 @@ hr{
     font-weight: 600;
     /* font-family: "Nunito"; */
 }
-.hr{
-    width: 300px;
-    
+.hr1{
+    /* width: 300px; */
+    color: #2D2D2D; 
+}
+.iconn{
+    border: 1px ridge #F2F2F2;
+  padding: 30px 30px 30px 30px;
+
+}
+.icon{
+    padding: 30px 0px 30px 0px;
+
+}
+.middle{
+    /* border: 2px ridge #F2F2F2;  */
+   box-shadow: 0px 0px 4px 0px #666;
+  margin: 2px 5px 0px 2px;
+  
+
+
 }
 .read{
-    height:60px;
-    width: 169px;
+    height:45px;
+    width: 145px;
     background-color:#33158C;
     color:#fff;
     border-radius: 2%;
-    padding: 15px;
+    /* padding: 15px; */
 }
 a:hover {
   color:#240e64;
@@ -190,7 +210,27 @@ border: 1px solid #F2F2F2;
   .navbar {
     margin-top: 20px;
   }
+  .readd{
+    position: relative !important;
+	float: left !important;
+	width: 100% !important;
+	text-align: center !important;
+  }
+  .read{
+    width: 100% !important;
+  }
+  .nextt{
+    position: relative !important;
+	float: left !important;
+	width: 100% !important;
+	text-align: center !important;
+  }
+  .car{
+      border-style: none;
+  }
 }
+/* End of blog */
+
 /* About Page CSS */
 #about-body {
     font-family: 'Open Sans', sans-serif;
@@ -200,7 +240,7 @@ border: 1px solid #F2F2F2;
       background-size: cover;
       height:600px;
   }
-  hr{
+  .hr{
       width:90px;
       height:2px !important;
       background-color:#22D7E3 ;
