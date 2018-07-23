@@ -80,6 +80,7 @@ height: px;
     height:90px;
     background-color: #2D2D2D;
     color:#fff;
+    
 }
 .social{
     list-style: none;
@@ -311,12 +312,7 @@ border: 1px solid #F2F2F2;
     color: #5C44A3;
     font-size: 30px;
   }
-  #subscribe {
-    background-color: rgba(51, 21, 140, 0.8);
-    color: #fff;
-    font-size: 25px;
-    height: 120px;
-  }
+ 
   .sub-button {
     background-color: #F9F9F9;
     color: #5C44A3;
